@@ -1,0 +1,202 @@
+html,body{
+  font-family: "Montserrat",sans-serif;
+  height: 100%;
+  margin :0;
+  padding: 0;
+}
+
+.icons-wrapper{
+  display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  max-width:35px;
+  margin: 25px;
+  font-family: 'Font Awesome 5 Brands';
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+text-rendering: auto;
+line-height: 1;
+  
+}
+.icon:hover{
+ 
+  margin-top: 23px;
+  border-radius: 50%;
+  -webkit-transition: margin-top 0.1s; /* For Safari 3.1 to 6.0 */
+  transition: margin-top 0.1s;
+  /* text-shadow: 2px 2px 5px aqua; */
+}
+h3{
+  font-size: 3rem
+}
+p{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+/* .first{
+  color: #fff;
+  background-color: rgb(173, 244, 247);
+} */
+/* .second{
+  color: rgba(21, 21, 22, 0.87);
+  background-color: rgba(38, 238, 211, 0.103);
+} */
+/* .third{
+  background-color: rgb(140, 182, 73)
+} */
+.cards-wrapper{
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.card{
+  border-radius: 10px;
+  border: solid 2px #bbb5b5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 200px;
+  width: 120px;
+  background-color: rgb(205, 201, 206);
+  margin: 10px;
+  
+ 
+}
+.card:hover{
+  
+  box-shadow:5px 5px 5px #201e1e;
+}
+.image-wrapper{
+ 
+  width: 90px;
+  height: 110px;
+  text-align: center;
+  padding: 5px;
+}
+.skill-title-wrapper{
+  padding: 5px;
+  height: 100px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+a:link {
+  text-decoration: none;
+ 
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* .___snowStorm___{
+  color:#f00;
+
+} */
+a:hover {
+  /* text-decoration: underline;
+  text-decoration-color:none; */
+  text-shadow: 2px 2px 2px #535050;
+}
+
+a:active {
+  text-decoration: underline;
+  text-decoration-color:none
+}
+a:hover{
+  cursor: pointer;
+}
+
+.fa:hover{
+  cursor: pointer;
+  text-shadow: 2px 2px 4px #535050;
+}
+@-webkit-keyframes mycolor {
+  from {color:white;}
+  to { color:rgb(96, 103, 134) ;}
+}
+@keyframes mycolor {
+  from {color:white;}
+  to { color:rgb(96, 103, 134) ;}
+}
+@keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+}
+.title:hover{
+  -webkit-animation: mycolor 3s; 
+    -webkit-animation-fill-mode: forwards;
+    animation: mycolor 3s;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+  
+}
+/* .fa-magic{ */
+    /* animation:colorchange 20s infinite alternate; */
+/* } */
+/* .fa-angle-double-up{
+ 
+  color: #ff0;
+} */
